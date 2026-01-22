@@ -29,13 +29,12 @@ export function ContactUs() {
           'Accept': 'application/json'
         },
         body: JSON.stringify({
-          access_key: "c9706216-ead7-44fb-8a1c-bba44052c6d8",
+          access_key: "47206444-8501-40ba-999f-9fb6f6519cd0",
           name: `${formData.firstName} ${formData.lastName}`,
           email: formData.email,
           subject: formData.subject,
           message: formData.message,
-          from_name: "DigitalPoint Website",
-          to_email: "ilankoonhansani@gmail.com"
+          from_name: "DigitalPoint Website"
         })
       });
 
@@ -234,10 +233,6 @@ export function ContactUs() {
                         className="w-full px-8 py-4 rounded-2xl bg-gray-50 border border-gray-100 focus:bg-white focus:ring-2 focus:ring-[#1b63bb]/20 focus:border-[#1b63bb] outline-none transition-all font-bold text-gray-900 appearance-none cursor-pointer pr-12"
                       >
                         <option>General Inquiry</option>
-                        <option>Request Project Proposal</option>
-                        <option>Request Similar Projects</option>
-                        <option>Request Custom Quote</option>
-                        <option>Others</option>
                       </select>
                       <div className="absolute right-6 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400 group-focus-within/select:text-[#1b63bb] transition-colors">
                         <ChevronDown className="w-5 h-5" />
